@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuestionario</title>
+</head>
+<body>
+    <h1 id="resultado"> Responde a las siguientes preguntas</h1>
+    <div>
+        <form name="formulario">
+        <h3>1.El nombre 'box-model' (modelo de caja) se llama así porque</h3>
+
+        <input type="radio" name="r1" value="a"> a. En los navegadores, todo se construye a partir de cajas <br>
+        <input type="radio" name="r1" value="b"> b. Tiene forma de caja <br>
+        <input type="radio" name="r1" value="c"> c. a y b son correctas <br>
+
+        <h3>2.Las partes que componen cada caja</h3>
+
+        <input type="radio" name="r2" value="a"> a. Contenido (content),  Relleno (padding), Borde (border) <br>
+        <input type="radio" name="r2" value="b"> b. Linea, barra, texto <br>
+        <input type="radio" name="r2" value="c"> c. Imagen de fondo (background image), Color de fondo (background color), Margen (margin) <br>
+        <input type="radio" name="r2" value="d"> d. a y c son correctas <br>
+
+        <h3>3.Tipos de cajas</h3>
+
+        <input type="radio" name="r3" value="a"> a. rectas y agrupadas <br>
+        <input type="radio" name="r3" value="b"> b. cuadradas y triangulares <br>
+        <input type="radio" name="r3" value="c"> c. bloque y en linea <br> 
+
+        <input type="button" value="enviar" onclick="procesarRespuestas()">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
